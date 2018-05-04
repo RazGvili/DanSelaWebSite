@@ -1,0 +1,98 @@
+
+.homePageBanner {
+    position: relative;
+    border-bottom: 10px solid #2f5572;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+    .homePageBanner__image {
+    display: block;
+    }
+
+    .homePageBanner__text-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width:100%;
+        text-align: center;
+    }
+
+        .homePageBanner__title {
+            font-weight: 200;
+            color: #284963;
+            font-size: 1.7rem;  
+        }
+
+        .homePageBanner__subtitle {
+            font-weight: 400;
+            color: #2f5572;
+            font-size: 1.6rem;
+            margin: 0;         
+        }
+
+        .homePageBanner__description {
+            color: ivory;
+            font-size: 1.3rem;         
+        }
+
+
+        @media (min-width: 530px) {
+
+            .homePageBanner__text-content {
+                transform: translateY(-90%);
+            }
+
+            .homePageBanner__title {
+                font-size: 2rem;
+            }
+
+            .homePageBanner__subtitle {
+                font-size: 1.25rem;      
+            }
+
+            .homePageBanner__description {
+                color: ivory;
+                font-size: 1.2rem;         
+            }
+        }
+
+        @media (min-width: 800px) {
+
+            .homePageBanner__title {
+                font-size: 3rem;
+            }
+
+            .homePageBanner__subtitle {
+                font-size: 1.5rem;      
+            }
+
+            .homePageBanner__description {
+                font-size: 1.5rem;         
+            }
+        }
+ 
+        @media (min-width: 1300px) {
+
+            .homePageBanner__title {
+                font-size: 3.5rem;
+            }
+
+            .homePageBanner__subtitle {
+                font-size: 2rem;      
+            }
+
+            .homePageBanner__description {
+                font-size: 2rem;         
+            }
+        }
+
+
+        @media (min-width: 1379px) {
+
+            .homePageBanner__text-content {
+                transform: translateY(-60%);
+            }
+            
+        }
+
+
+

@@ -1,0 +1,58 @@
+.homePageBanner2 {
+    padding-top: 2.5rem;;
+    padding-left: 10%;
+    width: 80%;
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: 200;
+}
+
+    .homePageBanner2__title {
+        margin: 1rem; 
+        font-size: 1.2rem;  
+    }
+ 
+    .homePageBanner2__subtitle {
+        font-size: 1.2rem;       
+    }
+
+
+    @media (min-width: 530px) {
+
+        .homePageBanner2__title {
+            font-size: 2rem;
+        }
+
+        .homePageBanner2__subtitle {
+            font-size: 1.25rem;      
+        }
+
+    }
+
+    @media (min-width: 800px) {
+
+        .homePageBanner2__title {
+            font-size: 3rem;
+        }
+
+        .homePageBanner2__subtitle {
+            font-size: 1.5rem;      
+        }
+
+    }
+
+    @media (min-width: 1300px) {
+
+        .homePageBanner2__title {
+            font-size: 3.5rem;
+        }
+
+        .homePageBanner2__subtitle {
+            font-size: 2.5rem;         
+        }
+        
+        
+    }
+
+
+
